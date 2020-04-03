@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "name": "sukharev",
+  "description": "sukharev.io website",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Dima Sukharev <dima@sukharev.io>",
   "dependencies": {
     "gatsby": "^2.19.45",
     "gatsby-image": "^2.2.44",
@@ -32,27 +32,25 @@
     "eslint-plugin-react-hooks": "^2.5.1",
     "prettier": "^1.19.1"
   },
-  "keywords": [
-    "gatsby"
-  ],
+  "keywords": [],
   "license": "MIT",
   "scripts": {
-    "reinstall": "rm -rf node_modules && rm -f package-lock.json && npm install",
-    "lint": "eslint .",
-    "lint:fix": "eslint . --fix",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
+    "reinstall": "rm -rf node_modules && rm -f package-lock.json && npm install",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/di-sukharev/sukharev.git"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/di-sukharev/sukharev/issues"
   }
 }
