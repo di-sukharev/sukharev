@@ -19,7 +19,17 @@
     "react-helmet": "^5.2.1"
   },
   "devDependencies": {
-    "eslint-config-sukharev": "file:../eslint-config",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-sukharev": "0.0.2",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-plugin-html": "^6.0.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-react-hooks": "^2.5.1",
     "prettier": "^1.19.1"
   },
   "keywords": [
@@ -27,8 +37,9 @@
   ],
   "license": "MIT",
   "scripts": {
+    "reinstall": "rm -rf node_modules && rm -f package-lock.json && npm install",
     "lint": "eslint .",
-    "lint:fix": "eslint --fix",
+    "lint:fix": "eslint . --fix",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
